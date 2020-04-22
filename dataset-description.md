@@ -1,0 +1,1 @@
+This release contains the provisional count of deaths involving coronavirus disease 2019 (COVID-19) by United States county released by the Center for Disease Control and Prevention (CDC) and National Center for Health Statistics (NCHS).
