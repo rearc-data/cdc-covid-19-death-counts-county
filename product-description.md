@@ -1,6 +1,6 @@
 # Provisional COVID-19 Death Counts in the United States by County | CDC / NCHS
 
-The source code outlining how this product gathers, transforms, revises and publishes its datasets is avaiable at [https://github.com/rearc-data/who-covid-19-cases-deaths](https://github.com/rearc-data/who-covid-19-cases-deaths).
+The source code outlining how this product gathers, transforms, revises and publishes its datasets is available at [https://github.com/rearc-data/who-covid-19-cases-deaths](https://github.com/rearc-data/who-covid-19-cases-deaths).
 
 ## Main Overview:
 This release contains the provisional count of deaths involving coronavirus disease 2019 (COVID-19) by United States county released by the Center for Disease Control and Prevention (CDC) and National Center for Health Statistics (NCHS).
