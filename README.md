@@ -12,7 +12,7 @@ This release contains the provisional count of deaths involving coronavirus dise
 Centers for Disease Control and Prevention provides free and open access to various health related data. If you are intersted in learning more about datasets released by the CDC, please visit the [page on the CDC Data Homepage](https://data.cdc.gov).
 
 #### Data Source
-This resource is presented in CSV and JSON Lines format. The included dataset has the following columns:
+This resource is presented in CSV and JSON format. The included dataset has the following columns:
 
 `data_as_of, start_week, end_week, state_name, county_name, county_fips_code, covid_death, total_death`
 
@@ -21,7 +21,7 @@ This resource is presented in CSV and JSON Lines format. The included dataset ha
 - [Terms of Use](https://www.usa.gov/government-works)
 - [CDC Data Homepage](https://data.cdc.gov/)
 - Frequency: Weekly
-- Formats: CSV, JSON Lines
+- Formats: CSV, JSON
 
 ## Contact Details
 - If you find any issues or have enhancements with this product, open up a GitHub [issue](https://github.com/rearc-data/who-covid-19-cases-deaths/issues) and we will gladly take a look at it. Better yet, submit a pull request. Any contributions you make are greatly appreciated :heart:.

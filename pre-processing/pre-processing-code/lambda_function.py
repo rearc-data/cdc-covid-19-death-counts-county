@@ -23,7 +23,7 @@ data_set_id = data_set_arn.split('/', 1)[1]
 product_id = os.environ['PRODUCT_ID']
 data_set_name = os.environ['DATA_SET_NAME']
 new_filename = data_set_name
-new_s3_key = data_set_name + '/dataset/' + new_filename
+new_s3_key = data_set_name + '/dataset/'
 cfn_template = data_set_name + '/automation/cloudformation.yaml'
 post_processing_code = data_set_name + '/automation/post-processing-code.zip'
 
@@ -70,7 +70,7 @@ def start_change_set(describe_entity_response, revision_arn):
 
 
 def lambda_handler(event, context):
-	source_dataset(new_filename, s3_bucket, new_s3_key)
+	asset_list = source_dataset(new_filename, s3_bucket, new_s3_key)
 
 	create_revision_response = dataexchange.create_revision(DataSetId=data_set_id)
 	revision_id = create_revision_response['Id']
@@ -85,16 +85,7 @@ def lambda_handler(event, context):
 			'ImportAssetsFromS3': {
 				'DataSetId': data_set_id,
 				'RevisionId': revision_id,
-				'AssetSources': [
-					{
-						'Bucket': s3_bucket,
-						'Key': new_s3_key + '.csv'
-					},
-					{
-						'Bucket': s3_bucket,
-						'Key': new_s3_key + '.json'
-					}
-				]
+				'AssetSources': asset_list
 			}
 		}
 	)
