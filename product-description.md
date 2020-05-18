@@ -2,7 +2,7 @@
 
 The source code outlining how this product gathers, transforms, revises and publishes its datasets is available at [https://github.com/rearc-data/who-covid-19-cases-deaths](https://github.com/rearc-data/who-covid-19-cases-deaths).
 
-## Main Overview:
+## Main Overview
 This release contains the provisional count of deaths involving coronavirus disease 2019 (COVID-19) by United States county released by the Center for Disease Control and Prevention (CDC) and National Center for Health Statistics (NCHS).
 
 Centers for Disease Control and Prevention provides free and open access to various health related data. If you are intersted in learning more about datasets released by the CDC, please visit the [page on the CDC Data Homepage](https://data.cdc.gov).

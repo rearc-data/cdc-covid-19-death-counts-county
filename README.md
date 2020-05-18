@@ -6,7 +6,7 @@
 
 You can subscribe to the AWS Data Exchange product utilizing the automation featured in this repository by visiting [https://aws.amazon.com/marketplace/pp/prodview-4kzr6sirjylak](https://aws.amazon.com/marketplace/pp/prodview-4kzr6sirjylak). 
 
-## Main Overview:
+## Main Overview
 This release contains the provisional count of deaths involving coronavirus disease 2019 (COVID-19) by United States county released by the Center for Disease Control and Prevention (CDC) and National Center for Health Statistics (NCHS).
 
 Centers for Disease Control and Prevention provides free and open access to various health related data. If you are intersted in learning more about datasets released by the CDC, please visit the [page on the CDC Data Homepage](https://data.cdc.gov).
